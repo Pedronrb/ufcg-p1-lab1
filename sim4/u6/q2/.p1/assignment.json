@@ -1,0 +1,32 @@
+{
+  "dirname": "u6/q2",
+  "full_resource": {
+    "dirname": "u6/q2",
+    "files": [
+      {
+        "category": "public",
+        "content": "- type: script\n  script: python public_tests.py {}\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "category": "public",
+        "content": "import unittest\nimport sys\n\nmodule = sys.argv[-1].split(\".py\")[0]\n\nclass PublicTests(unittest.TestCase):\n\n    @classmethod\n    def setUpClass(cls):\n        global oculta_letras\n        undertest = __import__(module)\n        oculta_letras = getattr(undertest, 'oculta_letras', None)\n\n    def test_tipo_exemplo(self):\n        assert oculta_letras(\"Casa\", \"a\") == \"_a_a\"\n        assert oculta_letras(\"Casa\", \"c\") == \"C___\"\n        assert oculta_letras(\"Casa\", \"aS\") == \"_asa\"\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+        "mode": "r",
+        "name": "public_tests.py"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Oculta Letras\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5558867561807872,
+    "index": null,
+    "user": "pedro.nascimento.silva@ccc.ufcg.edu.br"
+  },
+  "iid": 5558867561807872,
+  "key": "5558867561807872",
+  "site": "prog1",
+  "user": "pedro.nascimento.silva@ccc.ufcg.edu.br"
+}

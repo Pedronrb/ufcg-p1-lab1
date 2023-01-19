@@ -1,0 +1,26 @@
+{
+  "dirname": "u4/q15",
+  "full_resource": {
+    "dirname": "u4/q15",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    Python\n  output: |\n    Pyth0n (1 troca(s))\n\n- input: |\n    ZENIT\n  output: |\n    Z3N1T (2 troca(s))\n\n- input: |\n    Abacateiro\n  output: |\n    Ab4c4t31r0 (5 troca(s))\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Converte Senha\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 5720177859624960,
+    "index": null,
+    "user": "pedro.nascimento.silva@ccc.ufcg.edu.br"
+  },
+  "iid": 5720177859624960,
+  "key": "5720177859624960",
+  "site": "prog1",
+  "user": "pedro.nascimento.silva@ccc.ufcg.edu.br"
+}

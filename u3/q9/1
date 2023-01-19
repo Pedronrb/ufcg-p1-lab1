@@ -1,0 +1,11 @@
+ano = int(input('Digite o ano: '))
+
+ver = ano % 400
+ver2 = ano % 4
+ver3 = ano % 100
+
+if ver == 0 or ver2 == 0 
+    print(f'{ver, ver2}é bissexto!')
+else:
+    ver3 =! 0
+    print(f'{ver2.:5}não é bissexto')

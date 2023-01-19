@@ -1,0 +1,26 @@
+{
+  "dirname": "u4/q8",
+  "full_resource": {
+    "dirname": "u4/q8",
+    "files": [
+      {
+        "category": "public",
+        "content": "- input: |\n    7\n    3\n    2\n    2\n    4\n    5\n    0\n    0\n  output: |\n    3 2 1 4 5 0 -1\n\n- input: |\n    5\n    3\n    2\n    2\n    1\n    5\n  output: |\n    3 2 1 0 5\n\n",
+        "mode": "ro",
+        "name": "public_tests.yaml"
+      },
+      {
+        "content": "{\n  \"tests\": [],\n  \"title\": \"Muda Vizinho\"\n}",
+        "mode": "r",
+        "name": "tst.json"
+      }
+    ],
+    "iid": 4785878373236736,
+    "index": null,
+    "user": "pedro.nascimento.silva@ccc.ufcg.edu.br"
+  },
+  "iid": 4785878373236736,
+  "key": "4785878373236736",
+  "site": "prog1",
+  "user": "pedro.nascimento.silva@ccc.ufcg.edu.br"
+}

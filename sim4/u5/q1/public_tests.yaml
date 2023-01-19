@@ -1,0 +1,15 @@
+- input: |
+    joao 10
+    julio 1000
+    julio 2
+    joao 45.2
+    joao 10
+  output: |
+    joao foi o vencedor. Comprou mais de duas vezes no período.
+
+- input: |
+    joao 12
+    julio 4000
+  output: |
+    julio foi o vencedor. Comprou mais R$ 2000.00 no período.
+
